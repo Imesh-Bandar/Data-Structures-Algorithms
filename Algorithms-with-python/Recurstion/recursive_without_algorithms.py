@@ -47,7 +47,7 @@ def factorial_of_the_number(number_of_factorial):#(5):
 #-------------------|caller area of the code|-------------------#
 
 #calling the function and print the factorial value
-print(factorial_of_the_number(55))
+print(factorial_of_the_number(55))#change the number to calculate the factorial of any number
 
 #-------------------|caller area of the code|-------------------#
 
