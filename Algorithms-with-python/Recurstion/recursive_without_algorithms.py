@@ -4,8 +4,8 @@ def factorial_of_the_number(number_of_factorial):#(5):
 
 #Steps to calculate the factorial of a number without using recursion
 
-    #1. define the variable to store the
-    #2. define the answer variable to store the factorial value
+    #1. define the variable to store the index of the number that equals to the number of factorial
+    #2. define the answer variable to store the factorial value that equals to the number of factorial
     #3. while the index value is greater than 1(stooping condition/base condition)
     #4. decrease the index value by 1
     #5. calculate the factorial value by multiplying the answer variable with the decreased index value
