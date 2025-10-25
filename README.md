@@ -7,6 +7,7 @@ This repository contains implementations of various data structures and algorith
 
 ## Contents
 - **Data Structures**: Arrays, Linked Lists, Stacks, Queues, Trees.
-  - **Recurtion**: Factorial, Fibonacci
+  
 - **Algorithms**: Sorting (Bubble Sort, Merge Sort, Quick Sort), Searching (Binary Search), Dynamic Programming .
+  - **Recursion**: Factorial, sum of n numbers,power of a number.
 - **Languages**: Python, Java
