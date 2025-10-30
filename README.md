@@ -12,6 +12,7 @@ This repository contains implementations of various data structures and algorith
 
 ## Contents
 - **Data Structures**: Arrays, Linked Lists, Stacks, Queues, Trees.
+- **Stack Implementation in Java**: A simple stack implementation using an array with push, pop, peek, and isEmpty methods.
   
 - **Algorithms**: 
   - **Sorting** (Bubble Sort, Merge Sort, Quick Sort), Searching (Binary Search), Dynamic Programming .
