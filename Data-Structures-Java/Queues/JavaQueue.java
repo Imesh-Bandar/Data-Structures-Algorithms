@@ -30,26 +30,23 @@ public class JavaQueue {
     public void enqueue(int number) {
         if (isFull()) {
             System.out.println("Queue is full. Cannot enqueue " + number);
-
         } else {
-            // increment the rear by one and assign that getting value number
-            QueueArray[++reear] = number;
+            reear = (reear + 1) % MAXSIZE;
+            QueueArray[reear] = number;
             numberofIteam++;
         }
-
     }
 
     // dequeue
     public void dequeue() {
         if (isEmpty()) {
             System.out.println("Your Queue is empty nothing element to remove");
-
         } else {
+            int removed = QueueArray[front];
+            front = (front + 1) % MAXSIZE;
             numberofIteam--;
-            int removed = QueueArray[front++];
             System.out.println("Removed: " + removed);
         }
-
     }
 
     // peekfront
@@ -61,8 +58,8 @@ public class JavaQueue {
     // isFull
     public boolean isFull() {
 
-        // check reaer is equal to maxsize-1
-        if (reear == MAXSIZE - 1) {
+        // queue is full when numberofIteam == MAXSIZE
+        if (numberofIteam == MAXSIZE) {
             System.out.println("Your Queue is Full");
             return true;
         } else {
